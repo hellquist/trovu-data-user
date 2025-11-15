@@ -4,6 +4,8 @@
 examplekeyword 0: http://www.example.com/
 examplekeyword 1: http://www.example.com/?q=<query>
 w 1: https://en.wikipedia.org/wiki/Special:Search?search=<query>
+#testing to copy the Google search parameters from Vivaldi straight in to here to see what happens
+g 1: {google:baseURL}search?q=%s&{google:originalQueryForSuggestion}{google:prefetchSource}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}&udm=14
 examplekeyword 2:
   url: http://www.example.com/?q=<query>&p=<puery>
   title: Custom shortcut
